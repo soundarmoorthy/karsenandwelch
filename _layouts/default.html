@@ -1,87 +1,18 @@
+<!-- This is the main layouting and styling api's. The document that includes this content will be depending on API's provided by the following. It is not absolutely necessary to keep this here and the actual document somewhere. But subjectively kept this way to separate the CDN stuff from actual web site. The perosns going to manipulate the site will be totally ignorant about the techincal stuff. -->
+
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Karwel Cleaning products</title>
-
-	{{ content }}
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Official website of Karsen and welch cleantech industries, chennai">
-    <meta name="author" content="soundararajan@satyamev.co.in">
-
-  </head>
+  <!-- Contains stuff that includes the required css and java script -->
+  {% include bootstrap.html %}
   <body>
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="#"><strong>Karwel<strong></a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-	      <li class="divider-vertical"></li>
-              <li class="active"><a href="#">Home</a></li>
-	      <li class="divider-vertical"></li>
-              <li><a href="brochure">Brochure</a></li>
-	      <li class="divider-vertical"></li>
-              <li><a href="contact">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
+    <!-- The fragment that includes a bootstrap based css menu that wil be displayed across all the pages across the site-->
+    {% include menu.html %}
+  
+    <!-- Actual page content -->
+    {{ content }}
 
-    <div class="container">
-
-      <div class="hero-unit">
-        <h2>Karsen and Welch Cleantech Industries</h2>
-        <p style="text-align:justify">Karsen & Welch was started in 2001 to serve the needs of Industries, Institutions and  Household consumers with world class cleaning chemicals and products. These products are Bio degradable eco friendly and manufactured as per the international quality standards.
-
-The company is managed by a team of well qualified and experienced professionals. The company has a full fledged in house quality control labs. We are determined in perpetually enriching the quality  of our existing products and also look for innovative products and technology.<a href="aboutus"><small>Read more</small></a></p>
-      </div>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span4">
-          <h3>Room care</h3>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-small btn-info" href="#">Products</a></p>
-        </div>
-        <div class="span4">
-          <h3>Kitchen Care</h3>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-small btn-info" href="#">Products</a></p>
-       </div>
-        <div class="span4">
-          <h3>Industrial Care</h3>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-small btn-info" href="#">Products</a></p>
-        </div>
-
-        <div class="span4">
-          <h3>Fabric care</h3>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-small btn-info" href="#">Products</a></p>
-        </div>
-
-        <div class="span4">
-          <h3>Retail care</h3>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-small btn-info" href="#">Products</a></p>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; Karsen and Welch cleantech Industries 2013</p>
-      </footer>
-
-
-    </div> <!-- /container -->
+    <!-- The footer content for all the pages -->
+    {% include  footer.html %}
   </body>
 </html>
