@@ -5,7 +5,6 @@ function mandrillSendMail()
   var message = document.getElementById("inputMessage").value;
 
 var email = 
-
 {
     "message": {
         "html": "<p>Example HTML content</p>",
@@ -45,7 +44,7 @@ var email =
         ],
         "merge_vars": [
             {
-                "rcpt": "recipient.email@example.com",
+                "rcpt": "er.soundararajan@hotmail.com",
                 "vars": [
                     {
                         "name": "merge2",
@@ -61,13 +60,13 @@ var email =
         "google_analytics_domains": [
             "example.com"
         ],
-        "google_analytics_campaign": "message.from_email@example.com",
+        "google_analytics_campaign": sender,
         "metadata": {
             "website": "www.example.com"
         },
         "recipient_metadata": [
             {
-                "rcpt": "recipient.email@example.com",
+                "rcpt": "er.soundararajan@hotmail.com",
                 "values": {
                     "user_id": 123456
                 }
@@ -94,23 +93,12 @@ var email =
     "key": "Duoki9YGFKcodX7PB1W6GQ"
 };
 
-  alert(email);
   var post_url = "https://mandrillapp.com/api/1.0/messages/send.json";
+  
+  var request = new XMLHttpRequest();
+  request.open("POST",post_url,false);
+  request.setRequestHeader:"Content-Type","application/json;charset:utf-8");
+  request.send(JSON.stringify(email));
 
-  /* Compose the Ajax request object based on browser features */
-  var xmlhttp;
-  if (window.XMLHttpRequest)
-  {// code for IE7+, Firefox, Chrome, Opera, Safari
-      xmlhttp=new XMLHttpRequest();
-  }
-  else
-  {// code for IE6, IE5.
-      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
 
-  /*Now make the actual request to send mail */
-  xmlhttp.open("POST",post_url,true);
-  /*Mandril will reject text/plain content on API endpoints */
-  xmlhttp.setRequestHeader('Content-Type','application/json;charset=utf8');
-  xmlhttp.send(JSON.stringfy(email));
 }
