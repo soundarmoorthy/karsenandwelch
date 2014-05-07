@@ -10,13 +10,17 @@
 
 /* Added by Soundar : Customize the fonts */
 
-/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);*/
-/*@import url(http://fonts.googleapis.com/css?family=Overlock);*/
+@import url(http://fonts.googleapis.com/css?family=Coda);
 
 
-/*@import url(http://fonts.googleapis.com/css?family=Roboto);*/
-
-
+body {
+  margin: 0;
+  font-family: 'Coda';
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+  background-color: #ffffff;
+}
 .clearfix {
   *zoom: 1;
 }
@@ -230,14 +234,6 @@ textarea {
   }
 }
 
-body {
-  margin: 0;
-  font-family: 'Jura';
-  font-size: 12px;
-  line-height: 18px;
-  color: #333333;
-  background-color: #ffffff;
-}
 
 a {
   color: #0088cc;
