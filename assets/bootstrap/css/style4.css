@@ -4,7 +4,7 @@ This code belongs to the author of the above link. I just found that interesting
 */
 
 
-@import url('http://fonts.googleapis.com/css?family=Nova+Oval');
+@import url(http://fonts.googleapis.com/css?family=Share);
 
 .ca-menu{
     padding:0;
@@ -41,7 +41,7 @@ This code belongs to the author of the above link. I just found that interesting
     position: relative;
 }
 .ca-icon{
-    font-family: 'Nova Oval', cursive;
+    font-family: 'Share';
     color: #c5e4f4;
     font-size: 90px;
     text-shadow: 1px 0px 1px rgba(255,255,255,0.7);
@@ -59,7 +59,7 @@ This code belongs to the author of the above link. I just found that interesting
     transition: all 200ms linear;
 }
 .ca-content{
-    font-family: 'Nova Oval', cursive;
+    font-family: 'Share';
     position: absolute;
     left: 0px;
     width: 100%;
@@ -67,7 +67,7 @@ This code belongs to the author of the above link. I just found that interesting
     top: 50%;
 }
 .ca-main{
-    font-size: 30px;
+    font-size: 20px;
     color: #005382;
     opacity: 0.8;
     text-align: center;
@@ -79,9 +79,10 @@ This code belongs to the author of the above link. I just found that interesting
 }
 .ca-sub{
     text-align:center;
-    font-size: 14px;
+    font-family: 'Arial';
+    font-size: 12px;
     color: #666;
-    line-height: 40px;
+    line-height: 18px;
     opacity: 0.8;
     -webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;

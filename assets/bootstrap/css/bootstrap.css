@@ -10,12 +10,12 @@
 
 /* Added by Soundar : Customize the fonts */
 
-@import url(http://fonts.googleapis.com/css?family=Coda);
+@import url(http://fonts.googleapis.com/css?family=Share);
 
 
 body {
   margin: 0;
-  font-family: 'Coda';
+  font-family: 'Share';
   font-size: 12px;
   line-height: 18px;
   color: #333333;
