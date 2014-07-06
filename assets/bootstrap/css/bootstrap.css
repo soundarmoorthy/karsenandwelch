@@ -25,6 +25,11 @@ body {
   *zoom: 1;
 }
 
+.aboutus {
+  font-family: 'Share';
+  font-size: 12px;
+}
+
 .clearfix:before,
 .clearfix:after {
   display: table;
