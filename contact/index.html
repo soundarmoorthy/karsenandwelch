@@ -1,44 +1,36 @@
 ---
 layout: default
 ---
-<!-- These new lines are required for conforming with the layout -->
-<br><br><br><br>
-
-<div class="container-fluid">
-  <div class="row-fluid">
-    <div class="span2">
-      <h4>Contact Us</h4>
-      <br><br><br<br><br><br><br><br><br><br><br>
-      <h4>Online Enquiry</h4>
-    </div>
-    <div class="span5">
-      <blockquote>
-      <h4>Karsen and Welch Cleantech Industries</h4><br>
-      No 7/10, 5th Street, Krishna nagar<br>
-      Virugambakkam<br>
-      Chennai - 600092<br>
-      Phone : +91 9283671008, +91 9952041042, +91 9283473636<br>
-      Phone : 044 - 65903507, 044 - 65344653<br>
-      E-mail : <a href="mailto:marketing@karsenandwelch.com">marketing@karsenandwelch.com</a><br><br>
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          Contact Us
+        </div>
+        <div class="panel-body">
+          Karsen and Welch Cleantech Industries<br>
+          No 7/10, 5th Street, Krishna nagar<br>
+          Virugambakkam<br>
+          Chennai - 600092<br>
+          Phone : +91 9283671008, +91 9952041042, +91 9283473636<br>
+          Phone : 044 - 65903507, 044 - 65344653<br>
+          E-mail : <a href="mailto:marketing@karsenandwelch.com">marketing@karsenandwelch.com</a><br><br>
+        </div>
+      </div>
       <hr>
-        <div class="alert alert-block">
-	Please use the enquiry form below to contact us for any information.</div>
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          Send an enquiry
+        </div>
         <div class="conrol-group">
-          <input class="input-xlarge" type="text"  id="inputName" placeholder="Name" /><br><br>
-          <input class="input-xlarge" type="email" id="inputEmail" required=true placeholder="Email" /><br><br>
-	  <textarea rows=6 style="width:300px" maxlength=512 required=true placeholder="Enter the message" id="inputMessage"></textarea><br><br>
-<div id="capthadiv"></div>
-	  <button type="button" onClick="mandrillSendMail()" class="btn">Send Enquiry</button>
-	</div>
-      </blockquote>
-    </div>
-    <div class="span5">
-    </div>
-  </div>
-</div>
-<head>
-
-<script type="text/javascript" src="/assets/bootstrap/js/contact.js"></script>
-</head>
+          <br>
+          <input class="form-control" style="width:300px" type="text"  id="inputName" placeholder="Name" /><br><br>
+          <input class="form-control" style="width:300px" type="email" id="inputEmail" required=true placeholder="Email" /><br><br>
+          <textarea rows=6 style="width:60%" maxlength=1024 required=true placeholder="Enter the message" id="inputMessage"></textarea><br><br>
+          <div id="capthadiv"></div>
+          <button type="button" onClick="mandrillSendMail()" class="btn">Send Enquiry</button>
+        </div>
+      </div>
+      <head>
+        <script type="text/javascript" src="/assets/js/contact.js"></script>
+      </head>
 
 
