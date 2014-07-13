@@ -2,7 +2,7 @@
 layout: default
 ---
 
-        <h4>Karsen and Welch Cleantech Industries</h4>
+        <h3>Karsen and Welch Cleantech Industries</h3>
         <p style="text-align:justify">Karsen & Welch was started in 2001 to serve the needs of Industries, Institutions and  Household consumers with world class cleaning chemicals and products. These products are Bio degradable, eco friendly and manufactured as per the international quality standards.&nbsp; <a href="aboutus"><small>Read more</small></a></p>
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -17,63 +17,18 @@ layout: default
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <table>
-        <tr>
-          <td width="30%">
-            <img src="/assets/img/roomcare.jpg" class="img-responsive" alt="Roomcare image is missing">
-          </td>
-          <td width="70%">
-            <div class="carousel-caption">
-              ROOM CARE
-            </div>
-          </td>
-        </tr>
-      </table>
+      {% include roomcare.html %}
     </div>
     <div class="item">
-      <table>
-        <tr>
-          <td width="30%">
-            <img src="/assets/img/kitchencare.jpg" class="img-responsive" alt="Kitchen care image is missing">
-          </td>
-          <td width="70%">
-            <div class="carousel-caption">
-              KITCHEN CARE
-            </div> 
-          </td>
-        </tr>
-      </table>
+      {% include kitchencare.html %}
     </div>
 
     <div class="item">
-      <table>
-        <tr>
-          <td width="30%">
-            <img src="/assets/img/retailcare.jpg" class="img-responsive" alt="Retail care image is missing">
-          </td>
-          <td width="70%">
-            <div class="carousel-caption">
-              RETAIL CARE
-            </div> 
-          </td>
-        </tr>
-      </table>
+      {% include retailcare.html %}
     </div>
 
     <div class="item">
-
-      <table>
-        <tr>
-          <td width="30%">
-            <img src="/assets/img/industrialcare.jpg" class="img-responsive" alt="Industrial care image is missing">
-          </td>
-          <td width="70%">
-            <div class="carousel-caption">
-              INDUSTRIAL CARE
-            </div> 
-          </td>
-        </tr>
-      </table>
+      {% include industrialcare.html %}
     </div>
   </div>
 
