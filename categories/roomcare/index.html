@@ -1,0 +1,53 @@
+---
+layout : default
+---
+
+ <div class="container-fluid">
+	<table class="table" width="100%">
+	<tr>
+	<td width="24%" style="line-height:250%">
+          <ul class="nav nav-sidebar">
+            <li class="hollow" onClick="load('RC01')">RC-01 Bathroom cleaner</li>
+            <li class="hollow" >RC-02 Glass cleaner</li>
+            <li class="hollow">RC-03 Hygienic surface cleaner</li>
+            <li class="hollow">RC-04 Furniture Polish</li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li class="hollow">RC-05 Room spray</li>
+            <li class="hollow">RC-06 Toilet bowl cleaner</li>
+            <li class="hollow">RC-07 Marble & Granite floor cleaner</li>
+            <li class="hollow">RC-08 Stain remover</li>
+            <li class="hollow">RC-09 All purpose cleaner</li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li class="hollow">RC-10 Heavy duty floor cleaner</li>
+            <li class="hollow">RC-11 Carpet shampoo</li>
+            <li class="hollow">RC-12 Carpet stain remover</li>
+            <li class="hollow">RC-13 Hand wash</li>
+            <li class="hollow">RC-14 Soft & Gentle hand wash</li>
+            <li class="hollow">RC-15 Disinfectant hand wash</li>
+            <li class="hollow">RC-16 Insta cleanser</li>
+            <li class="hollow">RC-17 Deodorant gel</li>
+            <li class="hollow">RC-18 Upholstry shampoo</li>
+            <li class="hollow">RC-19 All scale away</li>
+            <li class="hollow">RC-20 Floor stripper</li>
+            <li class="hollow">RC-21 Floor polish</li>
+            <li class="hollow">RC-22 Epoxy floor cleaner</li>
+            <li class="hollow">RC-23 Super lime scale away</li>
+          </ul>
+</td>
+<td width="70%">
+   <iframe src="/categories/roomcare/RC01.html" id="prouct_pane" style="width:100%;height:100%" frameborder=0 scrolling="no">
+   </iframe>
+</td>
+</tr>
+</table>
+</div>
+
+<script language="javascript">
+  function load(url)
+  {
+    var target = document.getElementById("product_pane");
+    target.src = "/categories/roomcare/products/" + url + ".html"
+  }
+</script>
