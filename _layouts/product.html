@@ -6,18 +6,6 @@
   <!-- Contains stuff that includes the required css and java script -->
   {% include bootstrap.html %}
   <body>
-
-      <!-- The fragment that includes a bootstrap based css menu that wil be displayed across all the pages across the site-->
-   {% include menu.html %}
-  <div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <!-- Actual page content -->
-      {{ content }}
-      <!-- The footer content for all the pages -->
-      {% include  footer.html %}
-    </div>
-   </div>
-   </div>
+    {{ content }}
   </body>
 </html>
