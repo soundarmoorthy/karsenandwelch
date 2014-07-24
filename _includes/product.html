@@ -1,5 +1,5 @@
       <!-- The fragment that includes a bootstrap based css menu that wil be displayed across all the pages across the site-->
-    <table width="100%">
+    <table width="100%" height="100%">
       <tr id="title"><td>
 	<div class="page-header">
 	  <h4>
@@ -10,7 +10,20 @@
       </tr>	
       <tr>
         <td id="produt_image">
-	  <img src="/assets/img/RC01.jpg" alt="RC01 image">
+	  <img src="{{ include.image }}" alt="{{ include.id}} image should be displayed here. Error loading the image">
         </td>
+      </tr>
+      <tr>
+	<td>
+	  <table width="100%" height="100%" border=1>
+	      <tr><td>Product name</td><td>{{ include.title }}</td></tr>
+	      <tr><td>Uses</td><td>{{ include.uses }}</td></tr>
+      	      <tr><td>Eco friendly</td><td>{{ include.ecofriendly }}</td></tr>
+      	      <tr><td>Direction to use</td><td>{{ include.directions }}</td></tr>
+      	      <tr><td>Packaging</td><td>{{ include.packaging }}</td></tr>
+      	      <tr><td>Price</td><td>{{ include.price }}</td></tr>
+      	      <tr><td>Description</td><td>{{ include.description }}</td></tr>
+	  </table>
+	</td>
       </tr>
     </table>
