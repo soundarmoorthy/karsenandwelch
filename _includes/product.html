@@ -10,19 +10,20 @@
       </tr>	
       <tr>
         <td id="produt_image">
-	  <img src="{{ include.image }}" alt="{{ include.id}} image should be displayed here. Error loading the image">
+	  <img src="{{ include.image }}" width="230px" height="160px" alt="{{ include.id}} image should be displayed here. Error loading the image">
         </td>
       </tr>
       <tr>
 	<td>
-	  <table width="100%" height="100%" border=1>
+<hr>
+	  <table class="table table-stripped" width="100%" style="font-size:1.2em" style="line-height:250%" height="100%">
 	      <tr><td>Product name</td><td>{{ include.title }}</td></tr>
+      	      <tr><td>Description</td><td>{{ include.description }}</td></tr>
 	      <tr><td>Uses</td><td>{{ include.uses }}</td></tr>
       	      <tr><td>Eco friendly</td><td>{{ include.ecofriendly }}</td></tr>
       	      <tr><td>Direction to use</td><td>{{ include.directions }}</td></tr>
       	      <tr><td>Packaging</td><td>{{ include.packaging }}</td></tr>
       	      <tr><td>Price</td><td>{{ include.price }}</td></tr>
-      	      <tr><td>Description</td><td>{{ include.description }}</td></tr>
 	  </table>
 	</td>
       </tr>
