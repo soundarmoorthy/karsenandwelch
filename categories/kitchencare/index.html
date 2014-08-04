@@ -7,22 +7,30 @@ layout : default
 	<tr>
 	<td data-toggle="collapse" width="24%">
 	<ul class="nav nav-sidebar">
-            <li class="bubble-right"><a href="/categories/kitchencare/KC01.html" target="product_pane"><sup>KC-01</sup> Dish wash</a></li>
-            <li class="bubble-right"><a href="/categories/kitchencare/KC02.html" target="product_pane"><sup>KC-02</sup> All purpose kitchen cleaner</a></li>
-            <li class="bubble-right"><a href="/categories/kitchencare/KC03.html" target="product_pane"><sup>KC-03</sup> Oven and Grill cleaner</a></li>
-            <li class="bubble-right"><a href="/categories/kitchencare/KC04.html" target="product_pane"><sup>KC-04</sup> Anti bacterial floor cleaner</a></li>
-            <li class="bubble-right"><a href="/categories/kitchencare/KC05.html" target="product_pane"><sup>KC-05</sup> De-scalar</a></li>
-            <li class="bubble-right"><a href="/categories/kitchencare/KC06.html" target="product_pane"><sup>KC-06</sup> Drain Relief</a></li>
-            <li class="bubble-right"><a href="/categories/kitchencare/KC07.html" target="product_pane"><sup>KC-07</sup> Silver dip</a></li>
-            <li class="bubble-right"><a href="/categories/kitchencare/KC08.html" target="product_pane"><sup>KC-08</sup> Stainless steel polish</a></li>
-            <li class="bubble-right"><a href="/categories/kitchencare/KC09.html" target="product_pane"><sup>KC-09</sup> Crockery/ cutlery/ glass shiner</a></li>
+            <li class="grow" onClick="loadFrame('/categories/kitchencare/KC01/index.html')" ><a><sup>KC-01</sup> Dish wash</a></li>
+            <li class="grow" onClick="loadFrame('/categories/kitchencare/KC02/index.html')" ><a><sup>KC-02</sup> All purpose kitchen cleaner</a></li>
+            <li class="grow" onClick="loadFrame('/categories/kitchencare/KC03/index.html')" ><a><sup>KC-03</sup> Oven and Grill cleaner</a></li>
+            <li class="grow" onClick="loadFrame('/categories/kitchencare/KC04/index.html')" ><a><sup>KC-04</sup> Anti bacterial floor cleaner</a></li>
+            <li class="grow" onClick="loadFrame('/categories/kitchencare/KC05/index.html')" ><a><sup>KC-05</sup> De-scalar</a></li>
+            <li class="grow" onClick="loadFrame('/categories/kitchencare/KC06/index.html')" ><a><sup>KC-06</sup> Drain Relief</a></li>
+            <li class="grow" onClick="loadFrame('/categories/kitchencare/KC07/index.html')" ><a><sup>KC-07</sup> Silver dip</a></li>
+            <li class="grow" onClick="loadFrame('/categories/kitchencare/KC08/index.html')" ><a><sup>KC-08</sup> Stainless steel polish</a></li>
+            <li class="grow" onClick="loadFrame('/categories/kitchencare/KC09/index.html')" ><a><sup>KC-09</sup> Crockery/ cutlery/ glass shiner</a></li>
           </ul>
 </td>
 <!-- This is the frame that will host the content of a product, when clicked from the above list -->
 <td width="70%">
-   <iframe src="/categories/kitchencare/KC01.html" id="product_pane" style="width:100%;height:100%" frameborder=0 scrolling="no">
+   <iframe id="product_pane" style="min-height:1300px;" width="100%" frameborder=0 scrolling="no" seamless>
    </iframe>
 </td>
 </tr>
 </table>
 </div>
+
+<script>
+  function loadFrame(url)
+  {
+    var frame = document.getElementById("product_pane");
+    frame.src = url;
+  }
+</script>
