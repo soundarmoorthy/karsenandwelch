@@ -1,0 +1,47 @@
+---
+layout : default
+---
+
+<div class="container-fluid">
+   <table class="table table-responsive" width="100%">
+     <tr>
+	<td data-toggle="collapse" width="24%">
+          <ul class="nav nav-sidebar">
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC01/index.html')"><a><sup>RC-01</sup> Bathroom cleaner</a></a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC02/index.html')"><a><sup>RC-02</sup> Disinfectant Floor Cleaner</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC03/index.html')"><a><sup>RC-03</sup> Glass & Hard Surface Cleaner</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC04/index.html')"><a><sup>RC-04</sup> Furniture Polish</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC05/index.html')"><a><sup>RC-05</sup> Room spray</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC06/index.html')"><a><sup>RC-06</sup> Toilet bowl cleaner</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC07/index.html')"><a><sup>RC-07</sup> Marble & Granite floor cleaner</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC08/index.html')"><a><sup>RC-08</sup> Stain remover</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC09/index.html')"><a><sup>RC-09</sup> All purpose cleaner</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC10/index.html')"><a><sup>RC-10</sup> Heavy duty floor cleaner</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC11/index.html')"><a><sup>RC-11</sup> Carpet shampoo</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC13/index.html')"><a><sup>RC-13</sup> Hand wash</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC14/index.html')"><a><sup>RC-14</sup> Soft & Gentle hand wash</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC18/index.html')"><a><sup>RC-18</sup> Upholstry shampoo</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC19/index.html')"><a><sup>RC-19</sup> All scale away</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC22/index.html')"><a><sup>RC-22</sup> Epoxy floor cleaner</a></li>
+            <li class="grow" onClick="loadFrame('/categories/roomcare/RC23/index.html')"><a><sup>RC-23</sup> Super lime scale away</a></li>
+          </ul>
+        </td>
+        <td width="70%">
+          <iframe  style="min-height:1300px" id="product_pane" width="100%" frameborder=0 seamless scrolling="no">
+          </iframe>
+        </td>
+     </tr>
+   </table>
+</div>
+
+<script>
+  function loadFrame(url)
+  {
+    var frame = document.getElementById("product_pane");
+    frame.src = url;
+  }
+</script>
