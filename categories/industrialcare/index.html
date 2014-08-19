@@ -1,11 +1,7 @@
 ---
-layout : default
+layout : category
 ---
 
-<div class="container-fluid">
-   <table class="table table-responsive" width="100%">
-     <tr>
-	<td data-toggle="collapse" width="24%">
           <ul class="nav nav-sidebar">
             <li class="grow" onClick="loadFrame('/categories/industrialcare/IC01/index.html')"><a><sup>IC-01</sup> Industrial Floor cleaner</a></a></li>
             <li class="grow" onClick="loadFrame('/categories/industrialcare/IC02/index.html')"><a><sup>IC-02</sup> Insta cleanser</a></li>
@@ -17,19 +13,3 @@ layout : default
             <li class="grow" onClick="loadFrame('/categories/industrialcare/IC06/index.html')"><a><sup>IC-06</sup> Toilet bowl cleaner</a></li>
             <li class="grow" onClick="loadFrame('/categories/industrialcare/IC07/index.html')"><a><sup>IC-07</sup> Marble & Granite floor cleaner</a></li>
           </ul>
-        </td>
-        <td width="70%">
-          <iframe  style="min-height:1300px" id="product_pane" width="100%" frameborder=0 seamless scrolling="no">
-          </iframe>
-        </td>
-     </tr>
-   </table>
-</div>
-
-<script>
-  function loadFrame(url)
-  {
-    var frame = document.getElementById("product_pane");
-    frame.src = url;
-  }
-</script>

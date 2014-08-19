@@ -1,0 +1,25 @@
+---
+layout : default
+---
+
+<div class="container-fluid">
+   <table class="table table-responsive" width="100%">
+     <tr>
+	<td data-toggle="collapse" width="24%">
+			{{ content }}
+     </td>
+        <td width="70%">
+          <iframe  style="min-height:1300px" id="product_pane" width="100%" frameborder=0 seamless scrolling="no">
+          </iframe>
+        </td>
+     </tr>
+   </table>
+</div>
+
+<script>
+  function loadFrame(url)
+  {
+    var frame = document.getElementById("product_pane");
+    frame.src = url;
+  }
+</script>
