@@ -1,13 +1,9 @@
 .
+├── image_details
 ├── industrialcare
 │   ├── IC01
 │   │   ├── ic01.jpg
 │   │   └── index.html
-│   ├── IC02
-│   ├── IC03
-│   ├── IC04
-│   ├── IC05
-│   ├── IC06
 │   ├── IC07
 │   │   ├── Ic07.jpg
 │   │   └── index.html
@@ -16,13 +12,13 @@
 ├── kitchencare
 │   ├── KC01
 │   │   ├── index.html
-│   │   └── kc01.JPG
+│   │   └── kc01.jpg
 │   ├── KC02
 │   │   ├── index.html
-│   │   └── kc02.JPG
+│   │   └── kc02.jpg
 │   ├── KC03
 │   │   ├── index.html
-│   │   └── kc03.JPG
+│   │   └── kc03.jpg
 │   ├── KC04
 │   │   └── index.html
 │   ├── KC05
@@ -111,4 +107,4 @@
     │   └── rc23.jpg
     └── index.html
 
-46 directories, 66 files
+41 directories, 66 files
