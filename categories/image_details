@@ -1,0 +1,115 @@
+.
+├── foo
+├── industrialcare
+│   ├── IC01
+│   │   ├── ic01.jpg
+│   │   └── index.html
+│   ├── IC02
+│   ├── IC03
+│   ├── IC04
+│   ├── IC05
+│   ├── IC06
+│   ├── IC07
+│   │   ├── Ic07.jpg
+│   │   └── index.html
+│   ├── cp
+│   └── index.html
+├── kitchencare
+│   ├── KC01
+│   │   ├── index.html
+│   │   └── kc01.JPG
+│   ├── KC02
+│   │   ├── index.html
+│   │   └── kc02.JPG
+│   ├── KC03
+│   │   ├── index.html
+│   │   └── kc03.JPG
+│   ├── KC04
+│   │   └── index.html
+│   ├── KC05
+│   │   └── index.html
+│   ├── KC06
+│   │   └── index.html
+│   ├── KC07
+│   │   └── index.html
+│   ├── KC08
+│   │   └── index.html
+│   ├── KC09
+│   │   └── index.html
+│   └── index.html
+├── retailcare
+│   ├── coral
+│   │   ├── image.jpg
+│   │   └── index.html
+│   ├── index.html
+│   ├── ultra_bright
+│   │   ├── image.jpg
+│   │   └── index.html
+│   ├── ultra_clean
+│   │   ├── image.jpg
+│   │   └── index.html
+│   ├── ultra_fresh
+│   │   ├── image.jpg
+│   │   └── index.html
+│   ├── ultra_pleasant
+│   │   ├── image.jpg
+│   │   └── index.html
+│   ├── ultra_power
+│   │   ├── image.jpg
+│   │   └── index.html
+│   ├── ultra_saadhana
+│   │   ├── image.jpg
+│   │   └── index.html
+│   ├── ultra_shine
+│   │   └── index.html
+│   ├── ultra_soft
+│   │   └── index.html
+│   └── ultra_win
+│       └── index.html
+└── roomcare
+    ├── RC01
+    │   ├── index.html
+    │   └── rc01.jpg
+    ├── RC02
+    │   ├── index.html
+    │   └── rc02.jpg
+    ├── RC03
+    │   ├── index.html
+    │   └── rc03.jpg
+    ├── RC04
+    │   ├── index.html
+    │   └── rc04.jpg
+    ├── RC05
+    │   ├── index.html
+    │   └── rc05.jpg
+    ├── RC06
+    │   ├── index.html
+    │   └── rc06.jpg
+    ├── RC07
+    │   ├── index.html
+    │   └── rc07.jpg
+    ├── RC08
+    │   └── index.html
+    ├── RC09
+    │   └── index.html
+    ├── RC10
+    │   └── index.html
+    ├── RC11
+    │   └── index.html
+    ├── RC13
+    │   ├── index.html
+    │   └── rc13.jpg
+    ├── RC14
+    │   ├── index.html
+    │   └── rc14.jpg
+    ├── RC19
+    │   └── index.html
+    ├── RC22
+    │   ├── index.html
+    │   └── rc22.jpg
+    ├── RC23
+    │   ├── index.html
+    │   └── rc23.jpg
+    └── index.html
+
+46 directories, 66 files
